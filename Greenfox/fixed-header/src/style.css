@@ -1,0 +1,9 @@
+.container { display: block; }
+button { background-color: cyan; height: 30px; width: 100px; margin: 20px; }
+.link2 {width: 150px;  }
+.link1 {margin-left: 80px;  }
+.header {height: 70px; display: flex; background-color: purple; position: fixed; top: 0; width: 100%; }
+.full-content { display: block; display: flex; margin-left: 100px; margin-right: 100px; margin-top: 80px;}
+.side-content { background-color: yellow; height: 400px; width: 80%;}
+.main-content { background-color: lime; height: 400px; width: 20%; }
+.footer { background-color: lightgrey; height: 80px;  margin-left: 100px; margin-right: 100px; margin-top: 10px;}

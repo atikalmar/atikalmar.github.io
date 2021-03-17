@@ -1,0 +1,4 @@
+img {width: 300px; margin: 50px; hover: bigger }
+img:hover {
+  width: 400px; margin: 0px;cursor: pointer;
+}

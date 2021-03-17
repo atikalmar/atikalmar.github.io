@@ -1,0 +1,9 @@
+.container { display: block; max-width: 1100px;
+  margin: auto; }
+.header { background-color: aqua; height: 120px; }
+.full-content {display: flex; justify-content: space-between; } 
+.left-sidebar { background-color: orange; height: 1000px; width: 150px; }
+.right-sidebar { background-color: purple; height: 1000px; width:150px; }
+.main-content {display: flex; background-color: red; height: 1000px; width:750px; margin: auto; justify-content: flex-end; align-items: flex-end; }
+.fixed-box {background-color: black; height: 100px; width: 100px; margin: 30px; }
+.footer { background-color: blue; height: 120px;  }

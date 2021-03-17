@@ -1,0 +1,7 @@
+.container { display: block; }
+button { background-color: cyan; height: 30px; width: 100px; margin: 10px; }
+.link2 {width: 150px;  }
+.header {height: 50px; display: flex; background-color: purple; }
+.full-content { display: block; display: flex; }
+.side-content { background-color: lime; height: 500px; width: 20%; }
+.main-content { background-color: yellow; height: 500px; width: 80%;}
