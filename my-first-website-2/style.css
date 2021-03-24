@@ -1,0 +1,134 @@
+body{
+  margin:0;
+}
+nav {
+  background: rgb(43, 40, 40);
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 25%;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px 100px;
+}
+
+
+nav a:hover {
+ background-color: rgb(243, 12, 12);
+}
+
+section {
+  font-family: cursive;
+  display: flex;
+ 
+}
+
+.first-section {
+  background: white;
+  display: flex;
+  position: relative;
+  width: 100%;
+  
+}
+.intro {
+  font-family: cursive;
+  font-size: 30px;
+  margin: 20px 60px 20px 40px;
+  width: 100%;
+}
+
+
+  .text {
+    width: 50%;
+    height: 600px;
+    font-family: cursive;
+    padding-left: 100px;
+  }
+
+img {
+  width: 40%;
+  height: 600px;
+  object-fit: cover;
+  position: relative;
+}
+
+
+h1 {
+  font-family: serif;
+  font-size: 50px;
+  position: absolute;
+  bottom: 5%;
+  left: 20%;
+}
+
+
+
+p {
+  font-family: serif;
+  margin: 20px 0 20px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+h2 {
+  font-family: serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: serif;
+  font-size: 23px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+h4 {
+  font-family: cursive;
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-weight: 400;
+ 
+}
+
+li {
+  font-family: serif;
+  font-weight: 300;
+  list-style-type: square;
+  line-height: 1.6;
+}
+
+blockquote {
+  background: rgb(43, 40, 40);
+  color: white;
+  font-size: 50px;
+  font-family: serif;
+  margin: 0;
+  line-height: 1.6;
+  position: relative;
+  width: 661px;
+  height: 100%;
+  padding: 50px;
+}
+
+blockquote::before {
+  content: "“";
+  position: absolute;
+  font-size: 10.0rem;
+  top: -60px;
+  left: 0px;
+}
+
+

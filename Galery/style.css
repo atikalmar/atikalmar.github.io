@@ -1,0 +1,17 @@
+
+.container{
+    margin : 0 auto; font-family: cursive; background-color: khaki;
+}
+
+h1 {
+    background-color: olivedrab; text-align: center; margin : 0 auto; font: 150px; color: wheat;
+}
+.photo {
+    width:650px;
+    position: relative;
+    height: 300px;
+    left: 35%;
+}
+h2 {
+     text-align: center; margin : 0 auto; font: 150px; color: seagreen;
+}
