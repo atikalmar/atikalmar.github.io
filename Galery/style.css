@@ -1,17 +1,49 @@
 
-.container{
-    margin : 0 auto; font-family: cursive; background-color: khaki;
+body{
+    margin : 0 auto; 
+    font-family: cursive; 
+    background-color: khaki; 
+    text-align: center;
+ 
 }
 
 h1 {
-    background-color: olivedrab; text-align: center; margin : 0 auto; font: 150px; color: wheat;
+    font-size: 65px; margin : 0
 }
-.photo {
-    width:650px;
-    position: relative;
-    height: 300px;
-    left: 35%;
+#photo {
+    width:700px;
+    height: 500px;
+    margin: 0;
+    border: solid darkgray 5px;
+
 }
-h2 {
-     text-align: center; margin : 0 auto; font: 150px; color: seagreen;
+
+.gray-container { 
+    background-color: black; 
+    width:700px; 
+    opacity: 60%; 
+    position: absolute;
+    top: 485px;
+    left: 610px;
+}
+
+h2 { color: white;
+    
+}
+
+p { color: white;
+    
+}
+#rightarrow {
+    transform: rotate( 0.5turn); 
+    height: 510px; 
+    width: 70px;
+    background-color: whitesmoke;
+    margin: 0;
+}
+#leftarrow {
+    height: 510px; 
+    width: 70px;
+    background-color:whitesmoke;
+    margin: 0;
 }
