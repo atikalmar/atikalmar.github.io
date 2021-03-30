@@ -3,24 +3,34 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Galery</title>
+    <title>Gallery</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
      
-        <h1>Galery </h1>
-
-    <div id="container">
-        
-        <img src="\images\arrow.svg" alt="" id="leftarrow">
-        <img src="\images\anax-imperator-female.jpg" alt="" id="photo">
-        <img src="\images\arrow.svg" alt="" id="rightarrow">
-        <div class="gray-container">
-          <h2 id="photo-title">Anax imperator female</h2>
-          <p id="photo-description"> Perching on a twig</p>
-        </div>
-    </div>
+    <h2>Gallery </h2>
+     
+        <div id="container">
+            
+            <div id="slider">
+                <nav id="leftarrow" >
+                    <img src="images/arrow.svg" alt="">
+                </nav>
+                <div id="photo-container">
+                    <img id="photo">
+                    <div id="gray-container">
+                        <h1 id="photo-title"></h1>
+                        <p id="photo-description"></p>
+                    </div>                  
+                </div>
+                <nav id="rightarrow">
+                    <img src="images/arrow.svg" alt="">
+                </nav>            
+            </div>
+            <div id="thumbnails"> 
+            </div>
+        </div> 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="scripts.js"></script>
